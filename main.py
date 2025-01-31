@@ -30,3 +30,4 @@ devices = scan_network(network_range)
 print("Connected devices:")
 for device in devices:
     print(f"IP: {device['IP']}, MAC: {device['MAC']}")
+    
